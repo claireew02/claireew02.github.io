@@ -5,20 +5,30 @@
 </head>
 <body>
 
-<div>
+<div> <!--header and instructions -->
 <h1>Claire's Game</h1>
 <p>Click the button as many times as you can in 15 seconds.</p>
 </div>
 
-<div>
+<div> <!--button -->
 <p>
-<img src=https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/Boxer-637x260.png?bust=1556225776</p> 
+<img src="https://i2.wp.com/blog.clippertube.com/wp-content/uploads/2018/04/big-red-button.png" alt= "red button" width = "320" height = "240" </p> 
+
+<p><button type= "button" onclick= "document.getElementById('score').innerHTML = current_score" >Click me!</button></p>
 </div>
 
-<p><button type= "button">Click me!</button></p>
+<div>
+<p id= score> 0 </p>
+
+<script>
+var current_score;
+function addScore(current_score) {
+return current_score += 1;
+}
+</script>
+</div>
+
 <p><button type= "reset">Reset Game</button></p>
-
-
 
 
 </body>
