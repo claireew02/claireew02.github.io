@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Spaz Out</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 	h1 {text-align: center; color:red; text-shadow: 1px 	2px 2px #CE5937;}
     p#instructions {text-align: center;}
+	.btn {
+  		background-color: red;
+  		border: 10px solid #999999;
+        border-radius: 50%;
+  		color: white;
+  		padding: 100px 80px;
+  		text-align: center;
+  		text-decoration: none;
+  		font-size: 40px;
+  		margin: none;
+  		cursor: pointer;
+        position:relative; 
+   		margin-left:31%;   
+}
     
 </style>
-<title>Spaz Out</title>
+
+
 </head>
+
+
 <body>
-
-
-
 <div> <!--header and instructions -->
 <h1>Claire's Game</h1>
-<p>Click the button as many times as you can.</p>
+<p id= "instructions">Click the button as many times as you can.</p>
 </div>
 
 
@@ -30,14 +45,12 @@
     }
 </script>
 	
-    <button type="button" onClick="whenClicked()">Click 	me</button>
+    <button class= "btn" type="button" onClick="whenClicked()">Click 	me</button>
     <p>Score: <a id="clicks">0</a></p>
 </div>
 
 
 <p>
-<img src="https://i2.wp.com/blog.clippertube.com/wp-content/uploads/2018/04/big-red-button.png" alt= "red button" width = "320" height = "240" </p> 
-
 
 <p><button type= "reset">Reset Game</button></p>
 
