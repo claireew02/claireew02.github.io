@@ -13,21 +13,50 @@
 <p id= "instructions">Click the button as many times as you can.</p>
 </div>
 
-
-
-
 <div> <!--button -->
-<script>
+  <script>
    var clicks = 0;
    function whenClicked() {
        clicks += 1;
        document.getElementById("clicks").innerHTML = 		   clicks;
     }
-</script>
-	
-    <button class= "btn" type="button" onClick="whenClicked()">Click 	me</button>
-    <p>Score: <a id="clicks">0</a></p>
+  </script>
+  <button class = "btn" type="button" onClick="whenClicked()">Click me</button>
+<div>
+    <p id= "score">Score: <a id="clicks">0</a></p>
 </div>
 
+<div id= "table">
+  <p id="tableTitle">Leaderboard</p>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Score</tb>
+    </tr>
+    <tr>
+      <td>name1</td>
+      <td>score1</td>
+    </tr>
+    <tr>
+      <td>name2</td>
+      <td>score2</td>
+    </tr>
+    <tr>
+      <td>name3</td>
+      <td>score3</td>
+    </tr>
+    <tr>
+      <td>name4</td>
+      <td>score4</td>
+    </tr>
+    <tr>
+      <td>name5</td>
+      <td>score5</td>
+    </tr>
+    
+  </table>
+</div>
+
+<a href="https://www.coolmathgames.com/0-run-2">click here to find some other cool games!</a>
 </body>
 </html>
