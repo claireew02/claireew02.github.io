@@ -16,6 +16,6 @@ p#instructions {text-align: center;}
       position:relative; 
 	}
 
-p#score{text-align: center;}
+p#score{text-align: center; color: blue; font-family: helvetica;}
 
 p#tableTitle{text-align:center;}
