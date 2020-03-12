@@ -26,12 +26,14 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<nav id="navDemo" class="w3-sidebar w3-white w3-animate-left w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px;left:0;z-index:2">
+  <div class="w3-bar-block w3-left w3-large">
   <a href="https://claireew02.github.io/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOCATIONS</a>
   <a href="https://claireew02.github.io/gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GALLERY</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-</div>
+  </div>
+</nav>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:0px">
